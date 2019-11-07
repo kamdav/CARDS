@@ -1,0 +1,46 @@
+// General styling
+
+body {
+  background: $tertiary-color;
+
+  @media print {
+  margin: 0 15mm;
+  }
+}
+
+.print-modified {
+  @media print {
+    p {
+      font-size: 13px;
+    }
+  }
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+p,h1,h2,h3,h4,h5 {
+  color: white;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.6;
+
+  @media #{$small-only } {
+    font-size: 12px;
+  }
+}
+
+address {
+  margin: 0 0 20px 0;
+  color: $white;
+  font-size: 13px;
+  text-align: left;
+}
+
+
+.space-top {
+  margin-top: 20px;
+}

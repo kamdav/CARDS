@@ -1,0 +1,19 @@
+// Top of page styling
+
+.title-and-logo {
+  padding: 10px 0;
+}
+
+// Navigation background
+.nav-bg {
+  padding: 5px 0;
+  background: url(../img/pattern/fake_luxury.png);
+  border-top: 1px solid $secondary-color;
+  border-bottom: 1px solid $secondary-color;
+}
+
+
+.onlyprint {display: none;}
+@media print {
+  .onlyprint {display: block;}
+}
